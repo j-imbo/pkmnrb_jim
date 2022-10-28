@@ -1,0 +1,21 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+                    ["parcel","map","bike","voucher","itemfinder","silphscope","coincase","pokeflute"],
+                    ["oldrod","goodrod","superrod","tea","goldteeth","oldamber","dome","helix"],
+                    ["ssticket","liftkey","cardkey","secretkey","plantkey","mansionkey","hideoutkey","safaripass"],
+                    ["boulder","cascade","thunder","rainbow","soul","marsh","volcano","earth"],
+                    ["hm01","hm02","hm03","hm04","hm05","fuji","silph","champ"],
+                    ["cutex","flyex","surfex","strengthex","flashex","","pokemon",""]
+                ]
+            }
+        ]
+    }
+}

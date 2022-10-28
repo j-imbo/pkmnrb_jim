@@ -1,0 +1,48 @@
+{
+    "item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+                    ["parcel","map","bike","voucher","itemfinder","silphscope","coincase","pokeflute"],
+                    ["oldrod","goodrod","superrod","tea","goldteeth","oldamber","dome","helix"],
+                    ["ssticket","liftkey","cardkey","secretkey","plantkey","mansionkey","hideoutkey","safaripass"],
+                    ["boulder","cascade","thunder","rainbow","soul","marsh","volcano","earth"],
+                    ["hm01","hm02","hm03","hm04","hm05","fuji","silph","champ"],
+                    ["cutex","flyex","surfex","strengthex","flashex","","pokemon",""]
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "background": "#313131",
+                "item_size": 48,
+                "h_alignment": "center",
+                "rows": [
+                    ["elite4","victoryroad"],
+                    ["viridian","cerulean"],
+                    ["op_if","op_hid"],
+                    ["op_hm","op_man","op_tea"],
+                    ["op_exk","op_bldr","op_fos"],
+                    ["aide2","aide11","aide15"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "background": "#313131",
+                "item_size": 160,
+                "rows": [["freefly"]]
+            }
+            
+        ]
+    }
+}

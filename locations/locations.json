@@ -1,0 +1,1698 @@
+
+[
+    {
+        "name": "World",
+        "chest_unopened_img": "images/pokeball.png",
+        "chest_opened_img": "images/pokeball_gray.png",
+        "children": [
+            {
+                "name": "Fossil",
+                "access_rules": [
+                    "$pewter,[$cinnabar],[$fossils]"
+                ],
+                "sections": [
+                    {
+                        "name": "Fossil A",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fossil B",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 336,
+                        "y": 144
+                    },
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 560
+                    }
+                ]
+            },
+            {
+                "name": "Pallet Town",
+                "sections": [
+                    {
+                        "name": "Player's PC",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rival's Sister",
+                        "item_count": 1,
+                        "access_rules": ["parcel"]
+                    },
+                    {
+                        "name": "Oak's Post-Route-22-Rival Gift",
+                        "item_count": 1,
+                        "access_rules": ["parcel"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Route 1",
+                "sections": [
+                    {
+                        "name": "Free Sample Man",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 384
+                    }
+                ]
+            },
+            {
+                "name": "Viridian City",
+                "sections": [
+                    {
+                        "name": "Sleepy Guy",
+                        "item_count": 1,
+                        "access_rules": ["$cancut","$cansurf"]
+                    },
+                    {
+                        "name": "Pokemart Quest",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cuttable Tree Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Gym Item",
+                        "item_count": 1,
+                        "access_rules": ["$viridiangym,$oldman","$viridiangym,$pewter"]
+                    },
+                    {
+                        "name": "Giovanni",
+                        "item_count": 1,
+                        "access_rules": ["$viridiangym,$oldman","$viridiangym,$pewter"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 336
+                    }
+                ]
+            },
+            {
+                "name": "Route 2",
+                "access_rules": [
+                    "$oldman,$cancut",
+                    "$pewter,$cancut",
+                    "$vermillion,$cancut"
+                ],
+                "sections": [
+                    {
+                        "name": "Oak's Aide",
+                        "item_count": 1,
+                        "access_rules": ["$aide2"]
+                    },
+                    {
+                        "name": "North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "South Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 304
+                    }
+                ]
+            },
+            {
+                "name": "Diglett's Cave",
+                "access_rules": [
+                    "$pewter,$cancut",
+                    "$vermillion"
+                ],
+                "sections": [
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Route 23",
+                "access_rules": ["$victoryroad,$cansurf"],
+                "sections": [
+                    {
+                        "name": "On Island Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "East Tree After Water Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Rocks Before Final Guard Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 112,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Viridian Forest",
+                "access_rules": [
+                    "$pewter"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance Tree Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Northwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Northwest By Trainer Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Pewter City",
+                "access_rules": [
+                    "$pewter"
+                ],
+                "sections": [
+                    {
+                        "name": "Museum",
+                        "item_count": 1,
+                        "access_rules": ["$cancut"]
+                    },
+                    {
+                        "name": "Brock",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Route 3",
+                "sections": [
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 240,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Mt Moon",
+                "access_rules": [
+                    "$pewter"
+                ],
+                "sections": [
+                    {
+                        "name": "1F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F South Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Southeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Northwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F South Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F Lone Rock Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B2F Dead End Before Fossils Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 336,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Route 4",
+                "access_rules": [
+                    "$pewter"
+                ],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plateau East Of Mt Moon Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 416,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean City",
+                "access_rules": [
+                    "$cerulean"
+                ],
+                "sections": [
+                    {
+                        "name": "Badge Guy's Backyard Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Bicycle Shop",
+                        "item_count": 1,
+                        "access_rules": ["voucher"]
+                    },
+                    {
+                        "name": "Rocket Thief",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Misty",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Route 24",
+                "access_rules": ["$cerulean"],
+                "sections": [
+                    {
+                        "name": "Nugget Bridge",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 128
+                    }
+                ]
+            },
+            {
+                "name": "Route 25",
+                "access_rules": ["$cerulean"],
+                "sections": [
+                    {
+                        "name": "Northeast Of Grass Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Item",
+                        "item_count": 1,
+                        "access_rules": ["$cancut"]
+                    },
+                    {
+                        "name": "Fence Outside Bill's House Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Bill",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 544,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Route 9",
+                "access_rules": [
+                    "$cerulean,$cancut",
+                    "$lavender,$canflash"
+                ],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bush By Grass Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 544,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Route 10 North",
+                "access_rules": [
+                    "$cerulean,$cancut",
+                    "$lavender,$canflash"
+                ],
+                "sections": [
+                    {
+                        "name": "Tunnel Entrance Bush Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,$cancut","op_if_off,$cancut"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 592,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Route 10 South",
+                "access_rules": [
+                    "$cerulean,$cancut,$canflash",
+                    "$lavender"
+                ],
+                "sections": [
+                    {
+                        "name": "Rock Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 624,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Lavender Town",
+                "access_rules": [
+                    "$lavender"
+                ],
+                "sections": [
+                    {
+                        "name": "Mr. Fuji",
+                        "item_count": 1,
+                        "access_rules": ["fuji"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 624,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Pokemon Tower",
+                "access_rules": [
+                    "$lavender"
+                ],
+                "sections": [
+                    {
+                        "name": "3F North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "4F East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "4F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "4F South Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "5F Near West Staircase Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "5F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6F Southeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "7F Save Mr. Fuji",
+                        "hosted_item": "fuji",
+                        "access_rules": ["[silphscope]"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 656,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Route 5",
+                "sections": [
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Saffron City",
+                "access_rules": [
+                    "$saffron"
+                ],
+                "sections": [
+                    {
+                        "name": "Copycat",
+                        "item_count": 1,
+                        "access_rules": ["silph"]
+                    },
+                    {
+                        "name": "Copycat Desk Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,silph","op_if_off,silph"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Mr. Psychic",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sabrina",
+                        "item_count": 1,
+                        "access_rules": ["silph"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Underground Tunnel North-South",
+                "access_rules": [
+                    "$cerulean"
+                ],
+                "sections": [
+                    {
+                        "name": "Near Northern Stairs Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Southern Stairs Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 240
+                    },
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 304
+                    }
+                ]
+            },
+            {
+                "name": "Route 6",
+                "sections": [
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion City",
+                "access_rules": [
+                    "$vermillion"
+                ],
+                "sections": [
+                    {
+                        "name": "Fishing Guru",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water Near Fan Club Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,$cansurf","op_if_off,$cansurf"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Pokemon Fan Club",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lt. Surge",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf","$cancut"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "SS Anne",
+                "access_rules": ["$vermillion,ticket"],
+                "sections": [
+                    {
+                        "name": "1F Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Kitchen Trash Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B1F Item 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Item 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Item 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Pillow Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "2F Item 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F Item 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F Captain",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 464,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Route 11-12 Gatehouse",
+                "access_rules": [
+                    "$vermillion"
+                ],
+                "sections": [
+                    {
+                        "name": "Oak's Aide",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$vermillion,$boulders,$aide11",
+                            "$lavender,pokeflute,$aide11",
+                            "$fuchsia,pokeflute,$boulders,$aide11",
+                            "$fuchsia,pokeflute,surf,$aide11"
+                        ]
+                    },
+                    {
+                        "name": "Isolated Tree Near Gate Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Tree Near Gate Hidden",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$vermillion,$boulders,itemfinder",
+                            "$lavender,pokeflute,itemfinder",
+                            "$fuchsia,pokeflute,$boulders,itemfinder",
+                            "$fuchsia,pokeflute,surf,itemfinder",
+                            "$vermillion,$boulders,op_if_off",
+                            "$lavender,pokeflute,op_if_off",
+                            "$fuchsia,pokeflute,$boulders,op_if_off",
+                            "$fuchsia,pokeflute,surf,op_if_off"
+                        ],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 600,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Route 12 North",
+                "access_rules": [
+                    "$lavender"
+                ],
+                "sections": [
+                    {
+                        "name": "Mourning Girl",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Island Item",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 624,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Route 12 South",
+                "access_rules": [
+                    "$lavender,pokeflute",
+                    "$lavender,$cansurf"
+                ],
+                "sections": [
+                    {
+                        "name": "Fishing Guru's Brother",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cuttable Tree Item",
+                        "item_count": 1,
+                        "access_rules": ["$cancut"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 624,
+                        "y": 416
+                    }
+                ]
+            },
+            {
+                "name": "Underground Tunnel West-East",
+                "access_rules": ["$lavender"],
+                "sections": [
+                    {
+                        "name": "West Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "East Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 464,
+                        "y": 272
+                    },
+                    {
+                        "map": "map",
+                        "x": 528,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Celadon City",
+                "access_rules": [
+                    "$celadon"
+                ],
+                "sections": [
+                    {
+                        "name": "1F Mansion Lady",
+                        "item_count": 1,
+                        "visibility_rules": ["op_tea_on"]
+                    },
+                    {
+                        "name": "3F Dept Store Counter Man",
+                        "item_count": 1
+                    }, {
+                        "name": "Rooftop Thirsty Girl Water",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooftop Thirsty Girl Soda Pop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooftop Thirsty Girl Lemonade",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gambling Addict",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stranded Man",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf"]
+                    },
+                    {
+                        "name": "Dead End Near Cuttable Bush Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Erika",
+                        "item_count": 1,
+                        "access_rules": ["$cancut"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 400,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Route 16",
+                "access_rules": [
+                    "$celadon"
+                ],
+                "sections": [
+                    {
+                        "name": "House Woman",
+                        "item_count": 1,
+                        "access_rules": ["$cancut"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 304,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Route 17",
+                "access_rules": [
+                    "$celadon,pokeflute,bike",
+                    "$fuchsia,bike"
+                ],
+                "sections": [
+                    {
+                        "name": "In Grass Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Northernmost Sign Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "East Center Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "West Center Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Before Final Bridge Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 272,
+                        "y": 384
+                    }
+                ]
+            },
+            {
+                "name": "Fuchsia City",
+                "access_rules": [
+                    "$fuchsia"
+                ],
+                "sections": [
+                    {
+                        "name": "Fishing Guru's Brother",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Safari Zone Warden",
+                        "item_count": 1,
+                        "access_rules": ["teeth"]
+                    },
+                    {
+                        "name": "Warden's House Item",
+                        "item_count": 1,
+                        "access_rules": ["$canstrength"]
+                    },
+                    {
+                        "name": "Koga",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 432,
+                        "y": 464
+                    }
+                ]
+            },
+            {
+                "name": "Safari Zone",
+                "access_rules": ["$fuchsia,$safari"],
+                "sections": [
+                    {
+                        "name": "Center Zone Island Item",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf"]
+                    },
+                    {
+                        "name": "East Zone East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "East Zone West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "East Zone Center Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "East Zone Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "North Zone North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "North Zone Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "West Zone Northwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "West Zone Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret House",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret House Statue Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "West Zone Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "West Zone Southeast Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 432,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Route 15",
+                "access_rules": [
+                    "$fuchsia"
+                ],
+                "sections": [
+                    {
+                        "name": "Oak's Aide",
+                        "item_count": 1,
+                        "access_rules": ["$aide15"]
+                    },
+                    {
+                        "name": "Item",
+                        "access_rules": ["$cancut"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 496,
+                        "y": 464
+                    }
+                ]
+            },
+            {
+                "name": "Route 13",
+                "access_rules": [
+                    "$fuchsia"
+                ],
+                "sections": [
+                    {
+                        "name": "Dead End Bush Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Dead End By Water Corner Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 576,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Seafoam Islands",
+                "access_rules": ["$cansurf"],
+                "sections": [
+                    {
+                        "name": "B2F Rock Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B3F Rock Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B4F Corner Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 304,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Cinnabar Island",
+                "access_rules": ["$cinnabar"],
+                "sections": [
+                    {
+                        "name": "Lab Scientist",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blaine",
+                        "item_count": 1,
+                        "access_rules": ["secretkey"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 176,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Rock Tunnel",
+                "access_rules": [
+                    "$cerulean,$cancut,$canflash",
+                    "$lavender,$canflash"
+                ],
+                "sections": [
+                    {
+                        "name": "B1F Southwest Item",
+                        "item_count": 1,
+                        "visibility_rules": ["op_exk_on"]
+                    },
+                    {
+                        "name": "B1F North Item",
+                        "item_count": 1,
+                        "visibility_rules": ["op_exk_on"]
+                    },
+                    {
+                        "name": "B1F West Item",
+                        "item_count": 1,
+                        "visibility_rules": ["op_exk_on"]
+                    },
+                    {
+                        "name": "B1F Northwest Item",
+                        "item_count": 1,
+                        "visibility_rules": ["op_exk_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 624,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Silph Co",
+                "access_rules": ["$saffron,fuji"],
+                "sections": [
+                    {
+                        "name": "2F Woman",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "3F Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "4F Left Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "4F Middle Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "4F Right Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "5F Pot Plant Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "5F Southeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "5F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "5F Northwest Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "6F West Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "6F Southwest Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "7F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "7F East Item (Card Key)",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "9F Nurse Bed (Card Key) Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,cardkey","op_if_off,cardkey"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "10F Left Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "10F Bottom Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "10F Right Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "11F Silph Co President",
+                        "item_count": 1,
+                        "access_rules": ["cardkey"]
+                    },
+                    {
+                        "name": "Liberate Silph Co",
+                        "access_rules": ["cardkey"],
+                        "hosted_item": "silph"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 528,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Hideout",
+                "access_rules": ["$celadon,$hideout"],
+                "sections": [
+                    {
+                        "name": "B1F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Pot Plant Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B1F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F Northwest Left Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F Northwest Right Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B3F East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B3F Near East Item Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B3F Center Item",
+                        "item_count": 1
+                    },
+                    
+                    {
+                        "name": "B4F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4F Grunt Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4F Northwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4F Southwest Item (Lift Key)",
+                        "item_count": 1,
+                        "access_rules": ["liftkey"]
+                    },
+                    {
+                        "name": "B4F Giovanni Item",
+                        "item_count": 1,
+                        "access_rules": ["liftkey"]
+                    },
+                    {
+                        "name": "B4F Behind Giovanni Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,liftkey","op_if_off,liftkey"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 400,
+                        "y": 304
+                    }
+                ]
+            },
+            {
+                "name": "Pokemon Mansion",
+                "access_rules": ["$cinnabar,$mansion"],
+                "sections": [
+                    {
+                        "name": "1F Block Near Entrance Carpet Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "1F North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F South Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "3F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "3F Behind Burglar Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "3F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F South Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Northwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Secret Key Room Corner Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 144,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Power Plant",
+                "access_rules": [
+                    "$celadon,$cancut,$cansurf,$plant",
+                    "$lavender,$canflash,$cansurf,$plant"
+                ],
+                "sections": [
+                    {
+                        "name": "Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Central Dead End Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "South Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Southeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Before Zapdos Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 624,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road",
+                "access_rules": ["$cansurf,$victoryroad,$canstrength","$flyindigo,$canstrength"],
+                "sections": [
+                    {
+                        "name": "1F Top Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Left Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F Rock Before Moltres Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "2F North Item Near Moltres",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F Rock In Final Room Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "3F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "3F Northwest Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 112,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Indigo Plateau",
+                "access_rules": ["$cansurf,$victoryroad,$canstrength","$flyindigo"],
+                "sections": [
+                    {
+                        "name": "Become Champion",
+                        "hosted_item": "champ",
+                        "access_rules": ["$elite4"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 112,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean Cave",
+                "access_rules": ["$cerulean,$cansurf,$ceruleancave"],
+                "sections": [
+                    {
+                        "name": "1F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Northwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Southwest Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F Center Rocks Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,$cansurf","op_if_off,$cansurf"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "2F East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2F North Item",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf"]
+                    },
+                    {
+                        "name": "2F Southwest Item",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf"]
+                    },
+                    {
+                        "name": "B1F North Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Center Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B1F Northeast Rocks Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 464,
+                        "y": 144
+                    }
+                ]
+            }
+        ]
+    }
+]

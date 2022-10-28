@@ -1,0 +1,1244 @@
+[
+    {
+        "name": "Oak's Parcel",
+        "type": "toggle",
+        "img": "images/oaksparcel.png",
+        "codes": "parcel"
+    },
+    {
+        "name": "Bicycle",
+        "type": "toggle",
+        "img": "images/bicycle.png",
+        "codes": "bicycle,bike"
+    },
+    {
+        "name": "Town Map",
+        "type": "toggle",
+        "img": "images/townmap.png",
+        "codes": "townmap,map"
+    },
+    {
+        "name": "Item Finder",
+        "type": "toggle",
+        "img": "images/itemfinder.png",
+        "codes": "itemfinder"
+    },
+    {
+        "name": "Silph Scope",
+        "type": "toggle",
+        "img": "images/silphscope.png",
+        "codes": "silphscope"
+    },
+    {
+        "name": "Coin Case",
+        "type": "toggle",
+        "img": "images/coincase.png",
+        "codes": "coincase"
+    },
+    {
+        "name": "Poke Flute",
+        "type": "toggle",
+        "img": "images/pokeflute.png",
+        "codes": "pokeflute"
+    },
+    {
+        "name": "Old Rod",
+        "type": "toggle",
+        "img": "images/oldrod.png",
+        "codes": "oldrod"
+    },
+    {
+        "name": "Good Rod",
+        "type": "toggle",
+        "img": "images/goodrod.png",
+        "codes": "goodrod"
+    },
+    {
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "images/superrod.png",
+        "codes": "superrod"
+    },
+    {
+        "name": "Gold Teeth",
+        "type": "toggle",
+        "img": "images/goldteeth.png",
+        "codes": "goldteeth,teeth"
+    },
+    {
+        "name": "Secret Key",
+        "type": "toggle",
+        "img": "images/secretkey.png",
+        "codes": "secretkey"
+    },
+    {
+        "name": "Bike Voucher",
+        "type": "toggle",
+        "img": "images/bikevoucher.png",
+        "codes": "voucher"
+    },
+    {
+        "name": "Lift Key",
+        "type": "toggle",
+        "img": "images/liftkey.png",
+        "codes": "liftkey"
+    },
+    {
+        "name": "Card Key",
+        "type": "toggle",
+        "img": "images/cardkey.png",
+        "codes": "cardkey"
+    },
+    {
+        "name": "SS Ticket",
+        "type": "toggle",
+        "img": "images/ssticket.png",
+        "codes": "ssticket,ticket"
+    },
+    {
+        "name": "Tea",
+        "type": "toggle",
+        "img": "images/tea.png",
+        "codes": "tea"
+    },
+    {
+        "name": "Plant Key",
+        "type": "toggle",
+        "img": "images/plantkey.png",
+        "codes": "plantkey"
+    },
+    {
+        "name": "Mansion Key",
+        "type": "toggle",
+        "img": "images/mansionkey.png",
+        "codes": "mansionkey"
+    },
+    {
+        "name": "Hideout Key",
+        "type": "toggle",
+        "img": "images/hideoutkey.png",
+        "codes": "hideoutkey"
+    },
+    {
+        "name": "Safari Pass",
+        "type": "toggle",
+        "img": "images/safaripass.png",
+        "codes": "safaripass"
+    },
+    {
+        "name": "Boulder Badge",
+        "type": "toggle",
+        "img": "images/boulder.png",
+        "codes": "boulder,bb,badge"
+    },
+    {
+        "name": "Cascade Badge",
+        "type": "toggle",
+        "img": "images/cascade.png",
+        "codes": "cascade,cb,badge"
+    },
+    {
+        "name": "Thunder Badge",
+        "type": "toggle",
+        "img": "images/thunder.png",
+        "codes": "thunder,tb,badge"
+    },
+    {
+        "name": "Rainbow Badge",
+        "type": "toggle",
+        "img": "images/rainbow.png",
+        "codes": "rainbow,rb,badge"
+    },
+    {
+        "name": "Soul Badge",
+        "type": "toggle",
+        "img": "images/soul.png",
+        "codes": "soul,sb,badge"
+    },
+    {
+        "name": "Marsh Badge",
+        "type": "toggle",
+        "img": "images/marsh.png",
+        "codes": "marsh,mb,badge"
+    },
+    {
+        "name": "Volcano Badge",
+        "type": "toggle",
+        "img": "images/volcano.png",
+        "codes": "volcano,vb,badge"
+    },
+    {
+        "name": "Earth Badge",
+        "type": "toggle",
+        "img": "images/earth.png",
+        "codes": "earth,eb,badge"
+    },
+    {
+        "name": "Old Amber",
+        "type": "toggle",
+        "img": "images/oldamber.png",
+        "codes": "oldamber,oa,fossil"
+    },
+    {
+        "name": "Dome Fossil",
+        "type": "toggle",
+        "img": "images/dome.png",
+        "codes": "dome,fossil"
+    },
+    {
+        "name": "Helix Fossil",
+        "type": "toggle",
+        "img": "images/helix.png",
+        "codes": "helix,fossil"
+    },
+    {
+        "name": "Flippers",
+        "type": "toggle",
+        "img": "images/flippers.png",
+        "codes": "flippers,flip"
+    },
+    {
+        "name": "Master Sword",
+        "type": "toggle",
+        "img": "images/mastersword.png",
+        "codes": "mastersword,ms,sword"
+    },
+    {
+        "name": "Flute",
+        "type": "toggle",
+        "img": "images/flute.png",
+        "codes": "flute"
+    },
+    {
+        "name": "Titan's Mitts",
+        "type": "toggle",
+        "img": "images/titansmitts.png",
+        "codes": "mitts"
+    },
+    {
+        "name": "Lamp",
+        "type": "toggle",
+        "img": "images/lamp.png",
+        "codes": "lamp"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "toggle",
+        "img": "images/hm01.png",
+        "codes": "hm01,cut"
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "toggle",
+        "img": "images/hm02.png",
+        "codes": "hm02,fly"
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "toggle",
+        "img": "images/hm03.png",
+        "codes": "hm03,surf"
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "toggle",
+        "img": "images/hm04.png",
+        "codes": "hm04,strength"
+    },
+    {
+        "name": "HM05 Flash",
+        "type": "toggle",
+        "img": "images/hm05.png",
+        "codes": "hm05,flash"
+    },
+    {
+        "name": "Fuji Save",
+        "type": "toggle",
+        "img": "images/fuji.png",
+        "codes": "fuji"
+    },
+    {
+        "name": "Silph Co Liberation",
+        "type": "toggle",
+        "img": "images/silph.png",
+        "codes": "silph"
+    },
+    {
+        "name": "Champion",
+        "type": "toggle",
+        "img": "images/champ.png",
+        "codes": "champ"
+    },
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "champ.png",
+                "codes": "goal,goal_champ"
+            },
+            {
+                "img": "oak.png",
+                "codes": "goal,goal_oak",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Elite 4 Badges",
+        "type": "consumable",
+        "max_quantity": 8,
+        "initial_quantity": 8,
+        "img": "images/elite4.png",
+        "codes": "elite4"
+    },
+    {
+        "name": "Victory Road Badges",
+        "type": "consumable",
+        "max_quantity": 8,
+        "initial_quantity": 8,
+        "img": "images/victoryroad.png",
+        "codes": "victoryroad"
+    },
+    {
+        "name": "Viridian Gym Badges",
+        "type": "consumable",
+        "max_quantity": 7,
+        "initial_quantity": 7,
+        "img": "images/viridian.png",
+        "codes": "viridian"
+    },
+    {
+        "name": "Cerulean Cave Condition",
+        "type": "consumable",
+        "max_quantity": 29,
+        "initial_quantity": 20,
+        "img": "images/cerulean.png",
+        "codes": "cerulean"
+    },
+    {
+        "name": "HM01 Extra",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/unknown.png",
+                "codes": "cutex"
+            },
+            {
+                "img": "images/hmnone.png",
+                "codes": "cut_no"
+            },
+            {
+                "img": "images/marsh.png",
+                "codes": "cut_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/volcano.png",
+                "codes": "cut_v",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/earth.png",
+                "codes": "cut_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/boulder.png",
+                "codes": "cut_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/cascade.png",
+                "codes": "cut_c",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/thunder.png",
+                "codes": "cut_t",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/rainbow.png",
+                "codes": "cut_r",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/soul.png",
+                "codes": "cut_s",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "HM02 Extra",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/unknown.png",
+                "codes": "flyex"
+            },
+            {
+                "img": "images/hmnone.png",
+                "codes": "fly_no"
+            },
+            {
+                "img": "images/marsh.png",
+                "codes": "fly_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/volcano.png",
+                "codes": "fly_v",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/earth.png",
+                "codes": "fly_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/boulder.png",
+                "codes": "fly_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/cascade.png",
+                "codes": "fly_c",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/thunder.png",
+                "codes": "fly_t",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/rainbow.png",
+                "codes": "fly_r",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/soul.png",
+                "codes": "fly_s",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "HM03 Extra",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/unknown.png",
+                "codes": "surfex"
+            },
+            {
+                "img": "images/hmnone.png",
+                "codes": "surf_no"
+            },
+            {
+                "img": "images/marsh.png",
+                "codes": "surf_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/volcano.png",
+                "codes": "surf_v",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/earth.png",
+                "codes": "surf_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/boulder.png",
+                "codes": "surf_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/cascade.png",
+                "codes": "surf_c",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/thunder.png",
+                "codes": "surf_t",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/rainbow.png",
+                "codes": "surf_r",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/soul.png",
+                "codes": "surf_s",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "HM04 Extra",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/unknown.png",
+                "codes": "strengthex"
+            },
+            {
+                "img": "images/hmnone.png",
+                "codes": "strength_no"
+            },
+            {
+                "img": "images/marsh.png",
+                "codes": "strength_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/volcano.png",
+                "codes": "strength_v",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/earth.png",
+                "codes": "strength_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/boulder.png",
+                "codes": "strength_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/cascade.png",
+                "codes": "strength_c",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/thunder.png",
+                "codes": "strength_t",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/rainbow.png",
+                "codes": "strength_r",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/soul.png",
+                "codes": "strength_s",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "HM05 Extra",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/unknown.png",
+                "codes": "flashex"
+            },
+            {
+                "img": "images/hmnone.png",
+                "codes": "flash_no"
+            },
+            {
+                "img": "images/marsh.png",
+                "codes": "flash_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/volcano.png",
+                "codes": "flash_v",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/earth.png",
+                "codes": "flash_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/boulder.png",
+                "codes": "flash_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/cascade.png",
+                "codes": "flash_c",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/thunder.png",
+                "codes": "flash_t",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/rainbow.png",
+                "codes": "flash_r",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/soul.png",
+                "codes": "flash_s",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "HM Mode",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/hmno.png",
+                "codes": "op_hm,op_hm_off"
+            },
+            {
+                "img": "images/hmon.png",
+                "codes": "op_hm,op_hm_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/hmex.png",
+                "codes": "op_hm,op_hm_ex",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Old Man",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/oldmanno.png",
+                "codes": "op_man,op_man_off"
+            },
+            {
+                "img": "images/oldman.png",
+                "codes": "op_man,op_man_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Tea",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/teano.png",
+                "codes": "op_tea,op_tea_off"
+            },
+            {
+                "img": "images/tea.png",
+                "codes": "op_tea,op_tea_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Extra Key Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/exkeyno.png",
+                "codes": "op_exk,op_exk_off"
+            },
+            {
+                "img": "images/exkey.png",
+                "codes": "op_exk,op_exk_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Extra Boulders",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/bouldersno.png",
+                "codes": "op_bldr,op_bldr_off"
+            },
+            {
+                "img": "images/boulders.png",
+                "codes": "op_bldr,op_bldr_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Second Fossil Check",
+        "type": "consumable",
+        "initial_quantity": 3,
+        "max_quantity": 3,
+        "loop": true,
+        "img": "images/fossils.png",
+        "codes": "op_fos"
+    },
+    {
+        "name": "Require Itemfinder",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/itemfinderno.png",
+                "codes": "op_if,op_if_off"
+            },
+            {
+                "img": "images/itemfinder.png",
+                "codes": "op_if,op_if_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hidden Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/hiddenno.png",
+                "codes": "op_hid,op_hid_off"
+            },
+            {
+                "img": "images/hidden.png",
+                "codes": "op_hid,op_hid_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pokemon Registered",
+        "type": "consumable",
+        "max_quantity": 151,
+        "initial_quantity": 1,
+        "img": "images/pokedex.png",
+        "codes": "pokemon"
+    },
+    {
+        "name": "Aide Rt2",
+        "type": "consumable",
+        "max_quantity": 80,
+        "initial_quantity": 10,
+        "img": "images/aide2.png",
+        "codes": "aide2"
+    },
+    {
+        "name": "Aide Rt11",
+        "type": "consumable",
+        "max_quantity": 80,
+        "initial_quantity": 30,
+        "img": "images/aide11.png",
+        "codes": "aide11"
+    },
+    {
+        "name": "Aide Rt15",
+        "type": "consumable",
+        "max_quantity": 80,
+        "initial_quantity": 50,
+        "img": "images/aide15.png",
+        "codes": "aide15"
+    },
+    {
+        "name": "Fly Freebie",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/fpallet.png",
+                "codes": "freefly,fly_pallet"
+            },
+            {
+                "img": "images/fviridian.png",
+                "codes": "freefly,fly_viridian",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fpewter.png",
+                "codes": "freefly,fly_pewter",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fcerulean.png",
+                "codes": "freefly,fly_cerulean",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/flavender.png",
+                "codes": "freefly,fly_lavender",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fvermillion.png",
+                "codes": "freefly,fly_vermillion",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fceladon.png",
+                "codes": "freefly,fly_celadon",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ffuchsia.png",
+                "codes": "freefly,fly_fuchsia",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fcinnabar.png",
+                "codes": "freefly,fly_cinnabar",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/findigo.png",
+                "codes": "freefly,fly_indigo",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fsaffron.png",
+                "codes": "freefly,fly_saffron",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boulder Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "bg,bg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "bg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "bg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "bg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "bg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "bg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "bg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "bg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "bg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cascade Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "cg,cg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "cg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "cg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "cg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "cg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "cg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "cg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "cg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "cg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Thunder Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "tg,tg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "tg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "tg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "tg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "tg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "tg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "tg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "tg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "tg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Rainbow Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "rg,rg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "rg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "rg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "rg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "rg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "rg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "rg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "rg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "rg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Soul Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "sg,sg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "sg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "sg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "sg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "sg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "sg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "sg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "sg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "sg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Marsh Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "mg,mg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "mg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "mg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "mg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "mg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "mg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "mg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "mg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "mg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Volcano Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "vg,vg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "vg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "vg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "vg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "vg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "vg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "vg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "vg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "vg_g",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Earth Gym Leader",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/ldunknown.png",
+                "codes": "eg,eg_uk"
+            },
+            {
+                "img": "images/brock.png",
+                "codes": "eg_br",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/misty.png",
+                "codes": "eg_m",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ltsurge.png",
+                "codes": "eg_ls",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/erika.png",
+                "codes": "eg_e",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/koga.png",
+                "codes": "eg_k",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Sabrina.png",
+                "codes": "eg_s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/blaine.png",
+                "codes": "eg_bl",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/giovanni.png",
+                "codes": "eg_g",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
