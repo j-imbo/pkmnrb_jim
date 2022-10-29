@@ -342,20 +342,6 @@ end
 
 function pewter()
     return (
-        oldman() or flypewter()
-        or ((flycerulean() or flyvermillion()) and (cansurf() or cancut()))
-        or ((flylavender() or flyceladon()) and (((guard() or (pokeflute() and boulders())) and (cancut() or cansurf()))
-            or (cancut() and canflash())))
-        or (flyfuchsia() and ((cansurf() and guard()) or (cancut() and canflash() and cansurf())
-            or (pokeflute() and bike() and cancut() and (guard() or canflash()))
-            or (pokeflute() and boulders() and (cansurf() or cancut()))))
-        or ((cansurf() and canstrength() and (guard() or pokeflute() or (cancut() and canflash()))))
-        or (flysaffron() and guard() and (cancut() or cansurf()))
-    )
-end
-
-function cerulean()
-    return (
         oldman() or flypewter() or flycerulean() or flyvermillion()
         or ((flylavender() or flyceladon()) and (guard() or (cancut() and canflash())))
         or (flyfuchsia() and ((pokeflute() and (bike() or boulders())) or cansurf()) and (guard() or (cancut() and canflash())))
@@ -364,8 +350,12 @@ function cerulean()
     )
 end
 
+function cerulean()
+    return pewter()
+end
+
 function vermillion()
-    return cerulean()
+    return pewter()
 end
 
 function lavender()
