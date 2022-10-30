@@ -170,7 +170,7 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "East Tree After Water Hidden",
+                        "name": "East Bush After Water Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
@@ -473,7 +473,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Tunnel Entrance Bush Hidden",
+                        "name": "Tunnel Entrance Behind Cuttable Tree Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder,$cancut","op_if_off,$cancut"],
                         "visibility_rules": ["op_hid_on"]
@@ -495,7 +495,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rock Hidden",
+                        "name": "Bush Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
@@ -780,13 +780,13 @@
                         ]
                     },
                     {
-                        "name": "Isolated Tree Near Gate Hidden",
+                        "name": "Rt 11 Isolated Bush Near Gate Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Tree Near Gate Hidden",
+                        "name": "Rt 12 Bush Near Gate Hidden",
                         "item_count": 1,
                         "access_rules": [
                             "$vermillion,$boulders,itemfinder",

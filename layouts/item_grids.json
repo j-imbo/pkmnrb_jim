@@ -28,18 +28,16 @@
                 "item_size": 48,
                 "h_alignment": "center",
                 "rows": [
-                    ["elite4","victoryroad"],
-                    ["viridian","cerulean"],
-                    ["op_if","op_hid"],
-                    ["op_hm","op_man","op_tea"],
-                    ["op_exk","op_bldr","op_fos"],
-                    ["aide2","aide11","aide15"]
+                    ["aide2","aide11","aide15"],
+                    ["elite4","victoryroad","viridian","cerulean"],
+                    ["op_if","op_hid","op_hm","op_man"],
+                    ["op_tea","op_exk","op_bldr","op_fos"]
                 ]
             },
             {
                 "type": "itemgrid",
                 "background": "#313131",
-                "item_size": 160,
+                "item_size": 240,
                 "rows": [["freefly"]]
             }
             
