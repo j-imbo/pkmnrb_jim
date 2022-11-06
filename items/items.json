@@ -603,6 +603,7 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "img": "images/hmno.png",
@@ -625,6 +626,7 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "img": "images/oldmanno.png",
@@ -751,7 +753,7 @@
         "name": "Aide Rt11",
         "type": "consumable",
         "max_quantity": 80,
-        "initial_quantity": 30,
+        "initial_quantity": 20,
         "img": "images/aide11.png",
         "codes": "aide11"
     },
@@ -759,7 +761,7 @@
         "name": "Aide Rt15",
         "type": "consumable",
         "max_quantity": 80,
-        "initial_quantity": 50,
+        "initial_quantity": 30,
         "img": "images/aide15.png",
         "codes": "aide15"
     },
