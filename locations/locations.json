@@ -281,6 +281,10 @@
                         "item_count": 1
                     },
                     {
+                        "name": "B2F South Item",
+                        "item_count": 1
+                    },
+                    {
                         "name": "1F South Item",
                         "item_count": 1
                     },
@@ -293,14 +297,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "1F Northwest Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "B2F South Item",
-                        "item_count": 1
-                    },
-                    {
                         "name": "B2F North Item",
                         "item_count": 1
                     },
@@ -309,6 +305,10 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "1F Northwest Item",
+                        "item_count": 1
                     },
                     {
                         "name": "B2F Dead End Before Fossils Hidden",
@@ -1369,7 +1369,29 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "B1F Southwest Item",
+                        "name": "B3F East Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B3F Near East Item Hidden",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B3F Center Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4F West Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4F Grunt Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4F Northwest Item",
                         "item_count": 1
                     },
                     {
@@ -1389,30 +1411,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "B3F East Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "B3F Near East Item Hidden",
-                        "item_count": 1,
-                        "access_rules": ["itemfinder","op_if_off"],
-                        "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "B3F Center Item",
-                        "item_count": 1
-                    },
-                    
-                    {
-                        "name": "B4F West Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "B4F Grunt Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "B4F Northwest Item",
+                        "name": "B1F Southwest Item",
                         "item_count": 1
                     },
                     {
@@ -1455,14 +1454,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "1F South Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "2F Northeast Item",
-                        "item_count": 1
-                    },
-                    {
                         "name": "3F Southwest Item",
                         "item_count": 1
                     },
@@ -1473,7 +1464,15 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
+                        "name": "2F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
                         "name": "3F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1F South Item",
                         "item_count": 1
                     },
                     {
@@ -1584,6 +1583,14 @@
                         "item_count": 1
                     },
                     {
+                        "name": "3F Northeast Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "3F Northwest Item",
+                        "item_count": 1
+                    },
+                    {
                         "name": "2F Rock Before Moltres Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
@@ -1598,14 +1605,6 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "3F Northeast Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "3F Northwest Item",
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1639,12 +1638,21 @@
                 "access_rules": ["$cerulean,$cansurf,$ceruleancave"],
                 "sections": [
                     {
+                        "name": "2F East Item",
+                        "item_count": 1
+                    },
+                    {
                         "name": "1F Northeast Item",
                         "item_count": 1
                     },
                     {
                         "name": "1F Northwest Item",
                         "item_count": 1
+                    },
+                    {
+                        "name": "2F North Item",
+                        "item_count": 1,
+                        "access_rules": ["$cansurf"]
                     },
                     {
                         "name": "1F Southwest Item",
@@ -1655,15 +1663,6 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder,$cansurf","op_if_off,$cansurf"],
                         "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "2F East Item",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "2F North Item",
-                        "item_count": 1,
-                        "access_rules": ["$cansurf"]
                     },
                     {
                         "name": "2F Southwest Item",
