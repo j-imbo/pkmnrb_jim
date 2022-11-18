@@ -141,6 +141,11 @@ function onClear(slot_data)
             if obj then
                 obj.CurrentStage = blist[badge]
             end
+        else
+            obj = Tracker:FindObjectForCode("cutex")
+            if obj then
+                obj.CurrentStage = 1
+            end
         end
         if slot_data['extra_badges']["Fly"] then
             badge = string.sub(slot_data['extra_badges']["Fly"],1,1)
@@ -148,6 +153,11 @@ function onClear(slot_data)
             obj = Tracker:FindObjectForCode("flyex")
             if obj then
                 obj.CurrentStage = blist[badge]
+            end
+        else
+            obj = Tracker:FindObjectForCode("flyex")
+            if obj then
+                obj.CurrentStage = 1
             end
         end
         if slot_data['extra_badges']["Surf"] then
@@ -157,6 +167,11 @@ function onClear(slot_data)
             if obj then
                 obj.CurrentStage = blist[badge]
             end
+        else
+            obj = Tracker:FindObjectForCode("surfex")
+            if obj then
+                obj.CurrentStage = 1
+            end
         end
         if slot_data['extra_badges']["Strength"] then
             badge = string.sub(slot_data['extra_badges']["Strength"],1,1)
@@ -165,6 +180,11 @@ function onClear(slot_data)
             if obj then
                 obj.CurrentStage = blist[badge]
             end
+        else
+            obj = Tracker:FindObjectForCode("strengthex")
+            if obj then
+                obj.CurrentStage = 1
+            end
         end
         if slot_data['extra_badges']["Flash"] then
             badge = string.sub(slot_data['extra_badges']["Flash"],1,1)
@@ -172,6 +192,29 @@ function onClear(slot_data)
             obj = Tracker:FindObjectForCode("flashex")
             if obj then
                 obj.CurrentStage = blist[badge]
+            end
+        else
+            obj = Tracker:FindObjectForCode("flashex")
+            if obj then
+                obj.CurrentStage = 1
+            end
+        end
+        if slot_data['oaks_aide_rt_2'] then
+            obj = Tracker:FindObjectForCode("aide2")
+            if obj then
+                obj.AcquiredCount = slot_data['oaks_aide_rt_2']
+            end
+        end
+        if slot_data['oaks_aide_rt_11'] then
+            obj = Tracker:FindObjectForCode("aide11")
+            if obj then
+                obj.AcquiredCount = slot_data['oaks_aide_rt_11']
+            end
+        end
+        if slot_data['oaks_aide_rt_15'] then
+            obj = Tracker:FindObjectForCode("aide15")
+            if obj then
+                obj.AcquiredCount = slot_data['oaks_aide_rt_15']
             end
         end
     end
