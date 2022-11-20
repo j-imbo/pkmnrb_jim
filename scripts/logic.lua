@@ -110,7 +110,7 @@ end
 
 function guard()
     return (has("tea") and has("op_tea_on")) or (has("op_tea_off") and (flylavender() or flyceladon()
-    or ((flypewter() or flycerulean() or flyvermillion() or oldman()) and (cancut() and canflash()))
+    or ((flypewter() or flycerulean() or flyvermillion() or oldman()) and ((cancut() and canflash()) or (pokeflute() and boulders())))
     or (flyfuchsia() and ((pokeflute() and (boulders() or bike())) or cansurf()))
     or (canstrength() and cansurf())))
 end
