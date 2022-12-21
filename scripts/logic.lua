@@ -250,22 +250,29 @@ function fossils()
     return count >= req
 end
 
+function aidedex()
+    if has("op_dex_off") then
+        return has("parcel")
+    else return has("pokedex")
+    end
+end
+
 function aide2()
     local a = Tracker:ProviderCountForCode("aide2")
     local pk = Tracker:ProviderCountForCode("pokemon")
-    return (pk >= a)
+    return (pk >= a) and aidedex()
 end
 
 function aide11()
     local a = Tracker:ProviderCountForCode("aide11")
     local pk = Tracker:ProviderCountForCode("pokemon")
-    return (pk >= a)
+    return (pk >= a) and aidedex()
 end
 
 function aide15()
     local a = Tracker:ProviderCountForCode("aide15")
     local pk = Tracker:ProviderCountForCode("pokemon")
-    return (pk >= a)
+    return (pk >= a) and aidedex()
 end
 
 function oldman()

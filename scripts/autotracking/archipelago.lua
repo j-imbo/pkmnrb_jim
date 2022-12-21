@@ -217,6 +217,18 @@ function onClear(slot_data)
                 obj.AcquiredCount = slot_data['oaks_aide_rt_15']
             end
         end
+        if slot_data['randomize_pokedex'] then
+            obj = Tracker:FindObjectForCode("op_dex")
+            if obj then
+                obj.CurrentStage = slot_data['randomize_pokedex']
+            end
+        end
+        if slot_data['trainersanity'] then
+            obj = Tracker:FindObjectForCode("op_trn")
+            if obj then
+                obj.CurrentStage = slot_data['trainersanity']
+            end
+        end
     end
 end
 

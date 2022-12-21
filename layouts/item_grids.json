@@ -13,7 +13,7 @@
                     ["ssticket","liftkey","cardkey","secretkey","plantkey","mansionkey","hideoutkey","safaripass"],
                     ["boulder","cascade","thunder","rainbow","soul","marsh","volcano","earth"],
                     ["hm01","hm02","hm03","hm04","hm05","fuji","silph","champ"],
-                    ["cutex","flyex","surfex","strengthex","flashex","","pokemon",""]
+                    ["cutex","flyex","surfex","strengthex","flashex","","pokemon","pokedex"]
                 ]
             }
         ]
@@ -25,19 +25,19 @@
             {
                 "type": "itemgrid",
                 "background": "#313131",
-                "item_size": 48,
+                "item_size": 32,
                 "h_alignment": "center",
                 "rows": [
                     ["aide2","aide11","aide15"],
                     ["elite4","victoryroad","viridian","cerulean"],
-                    ["op_if","op_hid","op_hm","op_man"],
-                    ["op_tea","op_exk","op_bldr","op_fos"]
+                    ["op_if","op_hid","op_hm","op_man","op_trn"],
+                    ["op_tea","op_exk","op_bldr","op_fos","op_dex"]
                 ]
             },
             {
                 "type": "itemgrid",
                 "background": "#313131",
-                "item_size": 240,
+                "item_size": 200,
                 "rows": [["freefly"]]
             }
             

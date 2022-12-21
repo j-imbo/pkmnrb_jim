@@ -734,6 +734,46 @@
         ]
     },
     {
+        "name": "Pokedex Randomized",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/dexno.png",
+                "codes": "op_dex,op_dex_off"
+            },
+            {
+                "img": "images/pokedex.png",
+                "codes": "op_dex,op_dex_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Trainersanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/trainerno.png",
+                "codes": "op_trn,op_trn_off"
+            },
+            {
+                "img": "images/trainer.png",
+                "codes": "op_trn,op_trn_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pokedex",
+        "type": "toggle",
+        "img": "images/pokedex.png",
+        "codes": "pokedex"
+    },
+    {
         "name": "Pokemon Registered",
         "type": "consumable",
         "max_quantity": 151,
@@ -863,7 +903,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "bg_s",
                 "inherit_codes": false
             },
@@ -915,7 +955,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "cg_s",
                 "inherit_codes": false
             },
@@ -967,7 +1007,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "tg_s",
                 "inherit_codes": false
             },
@@ -1019,7 +1059,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "rg_s",
                 "inherit_codes": false
             },
@@ -1071,7 +1111,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "sg_s",
                 "inherit_codes": false
             },
@@ -1123,7 +1163,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "mg_s",
                 "inherit_codes": false
             },
@@ -1175,7 +1215,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "vg_s",
                 "inherit_codes": false
             },
@@ -1227,7 +1267,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/Sabrina.png",
+                "img": "images/sabrina.png",
                 "codes": "eg_s",
                 "inherit_codes": false
             },

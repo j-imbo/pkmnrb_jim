@@ -10,7 +10,7 @@
                     "type": "dock",
                     "dock": "left",
                     "v_alignment": "stretch",
-                    "margin": "0,0,3,0",
+                    "margin": "0,0,0,0",
                     "content": [
                         {
                             "type": "group",
