@@ -517,7 +517,6 @@
                     {
                         "name": "Trainers",
                         "item_count": 9,
-                        "access_rules": ["$fuchsia"],
                         "visibility_rules": ["op_trn_on"]
                     }
                 ],
@@ -1000,7 +999,7 @@
                     {
                         "map": "map",
                         "x": 528,
-                        "y": 320
+                        "y": 224
                     }
                 ]
             },
