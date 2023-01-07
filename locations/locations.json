@@ -1593,7 +1593,7 @@
                     },
                     {
                         "name": "4F Trainers",
-                        "item_count": 4,
+                        "item_count": 3,
                         "visibility_rules": ["op_trn_on"]
                     },
                     {
