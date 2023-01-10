@@ -1355,6 +1355,13 @@
                         "item_count": 10,
                         "visibility_rules": ["op_trn_on"]
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 432,
+                        "y": 336
+                    }
                 ]
             },
             {
