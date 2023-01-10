@@ -1876,7 +1876,7 @@
             {
                 "name": "Power Plant",
                 "access_rules": [
-                    "$celadon,$cancut,$cansurf",
+                    "$cerulean,$cancut,$cansurf",
                     "$lavender,$canflash,$cansurf"
                 ],
                 "sections": [
