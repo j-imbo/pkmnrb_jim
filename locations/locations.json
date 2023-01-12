@@ -1876,7 +1876,7 @@
             {
                 "name": "Power Plant",
                 "access_rules": [
-                    "$celadon,$cancut,$cansurf",
+                    "$cerulean,$cancut,$cansurf",
                     "$lavender,$canflash,$cansurf"
                 ],
                 "sections": [
@@ -1887,7 +1887,8 @@
                     },
                     {
                         "name": "Southwest Item",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": ["$plant"]
                     },
                     {
                         "name": "Central Dead End Hidden",
