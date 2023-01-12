@@ -542,7 +542,7 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Jr Trainer F",
+                        "name": "Jr. Trainer F",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"]
                     }
@@ -1355,6 +1355,13 @@
                         "item_count": 10,
                         "visibility_rules": ["op_trn_on"]
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 432,
+                        "y": 336
+                    }
                 ]
             },
             {
@@ -1593,7 +1600,7 @@
                     },
                     {
                         "name": "4F Trainers",
-                        "item_count": 4,
+                        "item_count": 3,
                         "visibility_rules": ["op_trn_on"]
                     },
                     {
@@ -1793,11 +1800,6 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "3F Burglar",
-                        "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
                     },
                     {
                         "name": "2F Northeast Item",
