@@ -502,7 +502,7 @@
                 "access_rules": [
                     "$cerulean,$cancut",
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -534,7 +534,7 @@
                 "access_rules": [
                     "$cerulean,$cancut",
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -562,7 +562,7 @@
                 "access_rules": [
                     "$cerulean,$cancut,[$canflash]",
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -589,7 +589,7 @@
                 "name": "Lavender Town",
                 "access_rules": [
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -610,7 +610,7 @@
                 "name": "Route 8",
                 "access_rules": [
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -631,7 +631,7 @@
                 "name": "Pokemon Tower",
                 "access_rules": [
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -993,7 +993,7 @@
                 "name": "Route 12 North",
                 "access_rules": [
                     "$lavendernoflash,[$canflash]",
-					"$lavender"
+                    "$lavender"
                 ],
                 "sections": [
                     {
@@ -1091,7 +1091,7 @@
                 "name": "Celadon City",
                 "access_rules": [
                     "$celadonnoflash,[$canflash]",
-					"$celadon"
+                    "$celadon"
                 ],
                 "sections": [
                     {
@@ -1229,7 +1229,7 @@
                 "name": "Fuchsia City",
                 "access_rules": [
                     "$fuchsianoflash,[$canflash]",
-					"$fuchsia"
+                    "$fuchsia"
                 ],
                 "sections": [
                     {
@@ -1336,7 +1336,7 @@
                 "name": "Route 15",
                 "access_rules": [
                     "$fuchsianoflash,[$canflash]",
-					"$fuchsia"
+                    "$fuchsia"
                 ],
                 "sections": [
                     {
@@ -1391,7 +1391,7 @@
                 "name": "Route 13",
                 "access_rules": [
                     "$fuchsianoflash,[$canflash]",
-					"$fuchsia"
+                    "$fuchsia"
                 ],
                 "sections": [
                     {
@@ -1416,8 +1416,8 @@
                         "name": "East Trainers",
                         "item_count": 3,
                         "access_rules": ["$fuchsianoflash,[$canflash],$boulders","$fuchsianoflash,[$canflash],$cansurf","$lavendernoflash,[$canflash],$cansurf","$lavendernoflash,[$canflash],pokeflute",
-						"$fuchsia,$boulders","$fuchsia,$cansurf","$lavender,$cansurf","$lavender,pokeflute"
-						],
+                        "$fuchsia,$boulders","$fuchsia,$cansurf","$lavender,$cansurf","$lavender,pokeflute"
+                        ],
                         "visibility_rules": ["op_trn_on"]
                     }
                 ],
