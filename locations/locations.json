@@ -501,7 +501,7 @@
                 "name": "Route 9",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavender,$canflash"
+                    "$lavender,[canflash]"
                 ],
                 "sections": [
                     {
@@ -532,7 +532,7 @@
                 "name": "Route 10 North",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavender,$canflash"
+                    "$lavender,[canflash]"
                 ],
                 "sections": [
                     {
@@ -558,7 +558,7 @@
             {
                 "name": "Route 10 South",
                 "access_rules": [
-                    "$cerulean,$cancut,$canflash",
+                    "$cerulean,$cancut,[canflash]",
                     "$lavender"
                 ],
                 "sections": [
@@ -585,7 +585,8 @@
             {
                 "name": "Lavender Town",
                 "access_rules": [
-                    "$lavender"
+                    "$lavender",
+					"$cerulean,$cancut,[canflash]"
                 ],
                 "sections": [
                     {
@@ -605,7 +606,8 @@
             {
                 "name": "Route 8",
                 "access_rules": [
-                    "$lavender"
+                    "$lavender",
+					"$cerulean,$cancut,[canflash]"
                 ],
                 "sections": [
                     {
@@ -625,7 +627,8 @@
             {
                 "name": "Pokemon Tower",
                 "access_rules": [
-                    "$lavender"
+                    "$lavender",
+					"$cerulean,$cancut,[canflash]"
                 ],
                 "sections": [
                     {
@@ -945,6 +948,7 @@
                         "access_rules": [
                             "$vermillion,$boulders,$aide11",
                             "$lavender,pokeflute,$aide11",
+							"$cerulean,$cancut,[canflash],pokeflute,$aide11",
                             "$fuchsia,pokeflute,$boulders,$aide11",
                             "$fuchsia,pokeflute,$cansurf,$aide11"
                         ]
@@ -956,10 +960,12 @@
                         "access_rules": [
                             "$vermillion,$boulders,itemfinder",
                             "$lavender,pokeflute,itemfinder",
+							"$cerulean,$cancut,[canflash],pokeflute,itemfinder",
                             "$fuchsia,pokeflute,$boulders,itemfinder",
                             "$fuchsia,pokeflute,surf,itemfinder",
                             "$vermillion,$boulders,op_if_off",
                             "$lavender,pokeflute,op_if_off",
+							"$cerulean,$cancut,[canflash],pokeflute,op_if_off",
                             "$fuchsia,pokeflute,$boulders,op_if_off",
                             "$fuchsia,pokeflute,surf,op_if_off"
                         ],
@@ -977,7 +983,8 @@
             {
                 "name": "Route 12 North",
                 "access_rules": [
-                    "$lavender"
+                    "$lavender",
+					"$cerulean,$cancut,[canflash]"
                 ],
                 "sections": [
                     {
@@ -1007,7 +1014,9 @@
                 "name": "Route 12 South",
                 "access_rules": [
                     "$lavender,pokeflute",
-                    "$lavender,$cansurf"
+					"$cerulean,$cancut,[canflash],pokeflute",
+                    "$lavender,$cansurf",
+					"$cerulean,$cancut,[canflash],$cansurf"
                 ],
                 "sections": [
                     {
@@ -1041,7 +1050,10 @@
             },
             {
                 "name": "Underground Tunnel West-East",
-                "access_rules": ["$lavender"],
+                "access_rules": [
+				    "$lavender",
+					"$cerulean,$cancut,[canflash]"
+				],
                 "sections": [
                     {
                         "name": "West Hidden",
@@ -1072,7 +1084,8 @@
             {
                 "name": "Celadon City",
                 "access_rules": [
-                    "$celadon"
+                    "$celadon",
+					"$cerulean,$cancut,[canflash]"
                 ],
                 "sections": [
                     {
@@ -1137,12 +1150,19 @@
                         "name": "Trainers",
                         "item_count": 6,
                         "visibility_rules": ["op_trn_on"],
-                        "access_rules": ["$celadon,bike,pokeflute","$fuchsia,bike"]
+                        "access_rules": [
+							"$celadon,bike,pokeflute",
+							"$fuchsia,bike",
+							"$cerulean,$cancut,[canflash],$cansurf,bike"
+						]
                     },
                     {
                         "name": "House Woman",
                         "item_count": 1,
-                        "access_rules": ["$celadon,$cancut"]
+                        "access_rules": [
+							"$celadon,$cancut",
+							"$cerulean,$cancut,[canflash]"
+						]
                     }
                 ],
                 "map_locations": [
@@ -1157,7 +1177,8 @@
                 "name": "Route 17",
                 "access_rules": [
                     "$celadon,pokeflute,bike",
-                    "$fuchsia,bike"
+                    "$fuchsia,bike",
+					"$cerulean,$cancut,[canflash],$cansurf,bike"
                 ],
                 "sections": [
                     {
@@ -1207,7 +1228,8 @@
             {
                 "name": "Fuchsia City",
                 "access_rules": [
-                    "$fuchsia"
+                    "$fuchsia",
+					"$cerulean,$cancut,[canflash],$cansurf"
                 ],
                 "sections": [
                     {
@@ -1244,7 +1266,10 @@
             },
             {
                 "name": "Safari Zone",
-                "access_rules": ["$fuchsia,$safari"],
+                "access_rules": [
+					"$fuchsia,$safari",
+					"$cerulean,$cancut,[canflash],$cansurf,$safari"
+				],
                 "sections": [
                     {
                         "name": "Center Zone Island Item",
@@ -1313,7 +1338,8 @@
             {
                 "name": "Route 15",
                 "access_rules": [
-                    "$fuchsia"
+                    "$fuchsia",
+					"$cerulean,$cancut,[canflash],$cansurf"
                 ],
                 "sections": [
                     {
@@ -1348,7 +1374,10 @@
             },
             {
                 "name": "Route 14",
-                "access_rules": ["$fuchsia"],
+                "access_rules": [
+					"$fuchsia",
+					"$cerulean,$cancut,[canflash],$cansurf"
+				],
                 "sections": [
                     {
                         "name": "Trainers",
@@ -1367,31 +1396,54 @@
             {
                 "name": "Route 13",
                 "access_rules": [
-                    "$fuchsia"
+                    "$fuchsia",
+					"$cerulean,$cancut,[canflash],$cansurf"
                 ],
                 "sections": [
                     {
                         "name": "Dead End Bush Hidden",
                         "item_count": 1,
-                        "access_rules": ["$fuchsia,itemfinder","$fuchsia,op_if_off"],
+                        "access_rules": [
+							"$fuchsia,itemfinder",
+							"$cerulean,$cancut,[canflash],$cansurf,itemfinder",
+							"$fuchsia,op_if_off",
+							"$cerulean,$cancut,[canflash],$cansurf,op_if_off"
+						],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Dead End By Water Corner Hidden",
                         "item_count": 1,
-                        "access_rules": ["$fuchsia,itemfinder","$fuchsia,op_if_off"],
+                        "access_rules": [
+							"$fuchsia,itemfinder",
+							"$cerulean,$cancut,[canflash],$cansurf,itemfinder",
+							"$fuchsia,op_if_off",
+							"$cerulean,$cancut,[canflash],$cansurf,op_if_off"
+						],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Trainers",
                         "item_count": 7,
-                        "access_rules": ["$fuchsia"],
+                        "access_rules": [
+							"$fuchsia",
+							"$cerulean,$cancut,[canflash],$cansurf"
+						],
                         "visibility_rules": ["op_trn_on"]
                     },
                     {
                         "name": "East Trainers",
                         "item_count": 3,
-                        "access_rules": ["$fuchsia,$boulders","$fuchsia,$cansurf","$lavender,$cansurf","$lavender,pokeflute"],
+                        "access_rules": [
+							"$fuchsia,$boulders",
+							"$cerulean,$cancut,[canflash],$boulders",
+							"$fuchsia,$cansurf",
+							"$cerulean,$cancut,[canflash],$cansurf",
+							"$lavender,$cansurf",
+							"$cerulean,$cancut,[canflash],$cansurf",
+							"$lavender,pokeflute",
+							"$cerulean,$cancut,[canflash],pokeflute"
+						],
                         "visibility_rules": ["op_trn_on"]
                     }
                 ],
@@ -1459,8 +1511,8 @@
             {
                 "name": "Rock Tunnel",
                 "access_rules": [
-                    "$cerulean,$cancut,$canflash",
-                    "$lavender,$canflash"
+                    "$cerulean,$cancut,[canflash]",
+                    "$lavender,[canflash]"
                 ],
                 "sections": [
                     {
@@ -1661,7 +1713,10 @@
             },
             {
                 "name": "Rocket Hideout",
-                "access_rules": ["$celadon,$hideout"],
+                "access_rules": [
+					"$celadon,$hideout",
+					"$cerulean,$cancut,[canflash],$hideout"
+				],
                 "sections": [
                     {
                         "name": "B1F West Item",
@@ -1734,7 +1789,10 @@
             },
             {
                 "name": "Rocket Hideout Trainers",
-                "access_rules": ["$celadon,$hideout"],
+                "access_rules": [
+					"$celadon,$hideout",
+					"$cerulean,$cancut,[canflash],$hideout"
+				],
                 "sections": [
                     {
                         "name": "B1F Rockets",
@@ -1879,7 +1937,7 @@
                 "name": "Power Plant",
                 "access_rules": [
                     "$cerulean,$cancut,$cansurf",
-                    "$lavender,$canflash,$cansurf"
+                    "$lavender,[canflash],$cansurf"
                 ],
                 "sections": [
                     {
@@ -2139,7 +2197,11 @@
             },
             {
                 "name": "Route 20 East",
-                "access_rules": ["$cansurf,$canstrength","$fuchsia,$cansurf"],
+                "access_rules": [
+					"$cansurf,$canstrength",
+					"$fuchsia,$cansurf",
+					"$cerulean,$cancut,[canflash],$cansurf"
+				],
                 "sections": [
                     {
                         "name": "Trainers",
@@ -2157,7 +2219,11 @@
             },
             {
                 "name": "Route 19",
-                "access_rules": ["$cansurf,$canstrength","$fuchsia,$cansurf"],
+                "access_rules": [
+				    "$cansurf,$canstrength",
+					"$fuchsia,$cansurf",
+					"$cerulean,$cancut,[canflash],$cansurf"
+				],
                 "sections": [
                     {
                         "name": "Trainers",
@@ -2175,7 +2241,10 @@
             },
             {
                 "name": "Route 18",
-                "access_rules": ["$fuchsia"],
+                "access_rules": [
+				    "$fuchsia",
+					"$cerulean,$cancut,[canflash],$cansurf"
+				],
                 "sections": [
                     {
                         "name": "Trainers",
