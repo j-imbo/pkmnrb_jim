@@ -561,7 +561,7 @@
                 "name": "Route 10 South",
                 "access_rules": [
                     "$cerulean,$cancut,[canflash]",
-                    "$lavendernoflash,[canflash]"
+                    "$lavendernoflash,[canflash]",
 					"$lavender"
                 ],
                 "sections": [
@@ -588,7 +588,7 @@
             {
                 "name": "Lavender Town",
                 "access_rules": [
-                    "$lavendernoflash,[canflash]"
+                    "$lavendernoflash,[canflash]",
 					"$lavender"
                 ],
                 "sections": [
@@ -609,7 +609,7 @@
             {
                 "name": "Route 8",
                 "access_rules": [
-                    "$lavendernoflash,[canflash]"
+                    "$lavendernoflash,[canflash]",
 					"$lavender"
                 ],
                 "sections": [
