@@ -501,7 +501,7 @@
                 "name": "Route 9",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavendernoflash,[canflash],$canflash"
+                    "$lavendernoflash,[canflash]"
                 ],
                 "sections": [
                     {
@@ -532,7 +532,7 @@
                 "name": "Route 10 North",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavendernoflash,[canflash],$canflash"
+                    "$lavendernoflash,[canflash]"
                 ],
                 "sections": [
                     {
@@ -558,7 +558,7 @@
             {
                 "name": "Route 10 South",
                 "access_rules": [
-                    "$cerulean,$cancut,$canflash",
+                    "$cerulean,$cancut,[canflash]",
                     "$lavendernoflash,[canflash]"
                 ],
                 "sections": [
@@ -1459,8 +1459,8 @@
             {
                 "name": "Rock Tunnel",
                 "access_rules": [
-                    "$cerulean,$cancut,$canflash",
-                    "$lavendernoflash,[canflash],$canflash"
+                    "$cerulean,$cancut,[canflash]",
+                    "$lavendernoflash,[canflash],[canflash]"
                 ],
                 "sections": [
                     {
@@ -1879,7 +1879,7 @@
                 "name": "Power Plant",
                 "access_rules": [
                     "$cerulean,$cancut,$cansurf",
-                    "$lavendernoflash,[canflash],$canflash,$cansurf"
+                    "$lavendernoflash,[canflash],[canflash],$cansurf"
                 ],
                 "sections": [
                     {
