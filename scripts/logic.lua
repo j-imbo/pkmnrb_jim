@@ -375,8 +375,22 @@ function lavender()
     )
 end
 
+function lavendernoflash()
+    return (
+      flylavender() or flyceladon()
+      or ((flypewter() or flycerulean() or flyvermillion() or oldman()) and (cancut() or guard() or (boulders() and pokeflute())))
+      or (flyfuchsia() and ((pokeflute() and (boulders() or bike())) or cansurf()))
+      or (canstrength() and cansurf())
+      or (flysaffron() and guard())
+    )
+end
+
 function celadon()
     return lavender()
+end
+
+function celadonnoflash()
+    return lavendernoflash()
 end
 
 function saffron()
@@ -393,6 +407,18 @@ function fuchsia()
         or (cansurf() and canstrength())
         or ((flypewter() or flycerulean() or flyvermillion() or oldman())
             and (((cancut() and canflash()) or guard() or (boulders() and pokeflute())) and (((pokeflute() and (boulders() or bike())) or cansurf()))))
+        or ((flyceladon() or flylavender()) and ((pokeflute() and (boulders() or bike())) or cansurf()))
+        or (canstrength() and cansurf())
+        or (flysaffron() and (guard() and ((pokeflute() and (boulders() or bike())) or cansurf())))
+    )
+end
+
+function fuchsianoflash()
+    return (
+        flyfuchsia()
+        or (cansurf() and canstrength())
+        or ((flypewter() or flycerulean() or flyvermillion() or oldman())
+            and ((cancut() or guard() or (boulders() and pokeflute())) and (((pokeflute() and (boulders() or bike())) or cansurf()))))
         or ((flyceladon() or flylavender()) and ((pokeflute() and (boulders() or bike())) or cansurf()))
         or (canstrength() and cansurf())
         or (flysaffron() and (guard() and ((pokeflute() and (boulders() or bike())) or cansurf())))
