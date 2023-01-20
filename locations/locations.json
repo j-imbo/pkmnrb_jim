@@ -710,7 +710,8 @@
             {
                 "name": "Saffron City",
                 "access_rules": [
-                    "$saffron"
+                    "$saffron",
+					"$saffronnoflash,[$canflash]"
                 ],
                 "sections": [
                     {
