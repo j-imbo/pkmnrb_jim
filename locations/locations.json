@@ -501,8 +501,7 @@
                 "name": "Route 9",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavendernoflash,[$canflash]",
-                    "$lavender"
+                    "$lavendernoflash,[$canflash]"
                 ],
                 "sections": [
                     {
@@ -533,8 +532,7 @@
                 "name": "Route 10 North",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavendernoflash,[$canflash]",
-                    "$lavender"
+                    "$lavendernoflash,[$canflash]"
                 ],
                 "sections": [
                     {
