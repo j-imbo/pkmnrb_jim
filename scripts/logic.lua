@@ -115,6 +115,13 @@ function guard()
     or (canstrength() and cansurf())))
 end
 
+function guardnoflash()
+    return (has("tea") and has("op_tea_on")) or (has("op_tea_off") and (flylavender() or flyceladon()
+    or ((flypewter() or flycerulean() or flyvermillion() or oldman()) and (cancut() or (pokeflute() and boulders())))
+    or (flyfuchsia() and ((pokeflute() and (boulders() or bike())) or cansurf()))
+    or (canstrength() and cansurf())))
+end
+
 function badges()
     local amt = 0
     if has("bb") then
@@ -397,6 +404,14 @@ function saffron()
     return (
         flysaffron()
         or (guard() and (flypewter() or flycerulean() or flyvermillion() or flylavender() or flyceladon() or oldman()
+            or ((flyfuchsia() or (canstrength() and cansurf())) and ((pokeflute() and (boulders() or bike())) or cansurf()))))
+    )
+end
+
+function saffronnoflash()
+    return (
+        flysaffron()
+        or (guardnoflash() and (flypewter() or flycerulean() or flyvermillion() or flylavender() or flyceladon() or oldman()
             or ((flyfuchsia() or (canstrength() and cansurf())) and ((pokeflute() and (boulders() or bike())) or cansurf()))))
     )
 end

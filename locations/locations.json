@@ -501,8 +501,7 @@
                 "name": "Route 9",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavendernoflash,[$canflash]",
-                    "$lavender"
+                    "$lavendernoflash,[$canflash]"
                 ],
                 "sections": [
                     {
@@ -533,8 +532,7 @@
                 "name": "Route 10 North",
                 "access_rules": [
                     "$cerulean,$cancut",
-                    "$lavendernoflash,[$canflash]",
-                    "$lavender"
+                    "$lavendernoflash,[$canflash]"
                 ],
                 "sections": [
                     {
@@ -712,7 +710,8 @@
             {
                 "name": "Saffron City",
                 "access_rules": [
-                    "$saffron"
+                    "$saffron",
+					"$saffronnoflash,[$canflash]"
                 ],
                 "sections": [
                     {
@@ -2183,13 +2182,19 @@
             },
             {
                 "name": "Route 19",
-                "access_rules": ["$cansurf,$canstrength","$fuchsianoflash,[$canflash],$cansurf","$fuchsia,$cansurf"],
+                "access_rules": ["$cansurf,$canstrength","$fuchsianoflash,[$canflash]","$fuchsia"],
                 "sections": [
                     {
                         "name": "Trainers",
-                        "item_count": 10,
+                        "item_count": 2,
                         "visibility_rules": ["op_trn_on"]
-                    }
+                    },
+					{
+						"name": "Trainers (Surf)",
+						"item_count": 8,
+						"visibility_rules": ["op_trn_on"],
+						"access_rules": ["$cansurf"]
+					}
                 ],
                 "map_locations": [
                     {
