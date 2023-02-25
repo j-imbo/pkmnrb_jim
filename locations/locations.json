@@ -188,7 +188,7 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Rocks Before Final Guard Hidden",
+                        "name": "Rocks Before Victory Road Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
@@ -1129,6 +1129,24 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
+                        "name": "Prize Corner 1",
+                        "item_count": 1,
+                        "access_rules": ["coincase"],
+                        "visibility_rules": ["op_prize_on"]
+                    },
+                    {
+                        "name": "Prize Corner 2",
+                        "item_count": 1,
+                        "access_rules": ["coincase"],
+                        "visibility_rules": ["op_prize_on"]
+                    },
+                    {
+                        "name": "Prize Corner 3",
+                        "item_count": 1,
+                        "access_rules": ["coincase"],
+                        "visibility_rules": ["op_prize_on"]
+                    },
+                    {
                         "name": "Gym Trainers",
                         "item_count": 7,
                         "access_rules": ["$cancut"],
@@ -1145,6 +1163,78 @@
                         "map": "map",
                         "x": 304,
                         "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Celadon Game Corner",
+                "access_rules": ["$celadon,coincase","$celadonnoflash,[$canflash],coincase"],
+                "sections": [
+                    {
+                        "name": "Gambler Gifts",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Northwest by Counter Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Southwest Corner Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Rumor Man Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Speculating Woman Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near West Gifting Gambler Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Wonterful Time Woman Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Failing Gym Information Guy Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near East Gifting Gambler Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Near Hooked Guy Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "End of Horizontal Machine Row Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Front of Horizontal Machine Row Hidden Coins",
+                        "item_count": 1,
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 304,
+                        "y": 144
                     }
                 ]
             },

@@ -768,6 +768,23 @@
         ]
     },
     {
+        "name": "Prizesanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/prizeno.png",
+                "codes": "op_prize,op_prize_off"
+            },
+            {
+                "img": "images/coincase.png",
+                "codes": "op_prize,op_prize_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Pokedex",
         "type": "toggle",
         "img": "images/pokedex.png",

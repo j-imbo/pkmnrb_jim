@@ -158,6 +158,12 @@ function onClear(slot_data)
 			obj.AcquiredCount = slot_data['cerulean_cave_condition']
 		end
 	end
+    if slot_data['prizesanity'] then
+        local obj = Tracker:FindObjectForCode("op_prize")
+        if obj then
+            obj.CurrentStage = slot_data['prizesanity']
+        end
+    end
     if slot_data['extra_badges'] then
         local hm
         local badge
@@ -346,6 +352,12 @@ function onLocation(location_id, location_name)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+    if location_name == "Silph Co President (Card Key)" then
+        Tracker:FindObjectForCode("silph").Active = true
+    end
+    if location_name == "Mr. Fuji" then
+        Tracker:FindObjectForCode("fuji").Active = true
     end
 end
 
