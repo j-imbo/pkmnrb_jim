@@ -1558,6 +1558,12 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Gym Trainers",
+                        "item_count": 7,
+                        "access_rules": ["secretkey"],
+                        "visibility_rules": ["op_trn_on"]
+                    },
+                    {
                         "name": "Blaine",
                         "item_count": 2,
                         "access_rules": ["secretkey"]
