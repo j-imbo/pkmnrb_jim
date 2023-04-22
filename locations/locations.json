@@ -1024,7 +1024,9 @@
                     "$lavendernoflash,[$canflash],pokeflute",
                     "$lavendernoflash,[$canflash],$cansurf",
                     "$lavender,pokeflute",
-                    "$lavender,$cansurf"
+                    "$lavender,$cansurf",
+                    "$fuchsianoflash,[$canflash]",
+                    "$fuchsia"
                 ],
                 "sections": [
                     {
@@ -1498,7 +1500,7 @@
                     {
                         "name": "Trainers",
                         "item_count": 7,
-                        "access_rules": ["$fuchsianoflash,[$canflash]","$fichsia"],
+                        "access_rules": ["$fuchsianoflash,[$canflash]","$fuchsia"],
                         "visibility_rules": ["op_trn_on"]
                     },
                     {
