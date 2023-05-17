@@ -1177,56 +1177,67 @@
                     {
                         "name": "Northwest by Counter Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Southwest Corner Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near Rumor Man Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near Speculating Woman Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near West Gifting Gambler Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near Wonderful Time Woman Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near Failing Gym Information Guy Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near East Gifting Gambler Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Near Hooked Guy Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "End of Horizontal Machine Row Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Front of Horizontal Machine Row Hidden Coins",
                         "item_count": 1,
+                        "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     }
                 ],
